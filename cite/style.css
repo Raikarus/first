@@ -1,0 +1,143 @@
+html, body {
+	padding: 0;
+	margin: 0;
+	font-family: Arial;
+}
+header {
+	background: #FBFBFB;
+	height: 100px;
+}
+a {
+	color: black;
+	text-decoration: none;
+	margin-right: 30px;
+	font-size: 14px;
+}
+a:hover {
+	color: rgb(252, 85, 124);
+	border-bottom: 1px solid rgb(252, 85, 124);
+	-webkit-transform: scale(1.03);
+	transform: scale(1.03);
+}
+#phone{
+	float: right;
+	font-weight: bold;
+	font-size: 24px;
+}
+#phbut {
+	border: 1px solid rgb(252, 85, 124);
+	background-color: #FBFBFB;
+	padding: 12px 40px 10px;
+	margin-left: 30px;
+	color: rgb(252, 85, 124);
+}
+#phbut:hover {
+	background-color: rgb(252, 85, 124);
+	color: white;
+}
+#contact-container {
+	height: 100%;
+	float:right;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+.fixed-width {
+	width: 1260px;
+	margin: 0 auto 0;
+	padding: 0 30px;
+	height: 100%;
+}
+nav {
+	height: 100%;
+	float: left;
+	display: flex;
+	align-items: center;
+}
+#verybigtxt{
+	font-size:70px;
+	font-weight: bold;
+}
+.bigtxt {
+	font-size: 50px;
+	font-weight: bold;
+}
+#firstpage {
+	text-align:left;
+}
+#logo {
+	background-image: url("images/Dmitry_Alekseev.png");
+	background-position: right;
+	height: 400px;
+	background-repeat: no-repeat;
+	padding-top: 200px;
+}
+#graytxt {
+	font-size: 20px;
+	color: gray;
+	font-weight: bold;
+}
+.knopka {
+	border: 1px solid #ff5533;
+	padding: 20px 60px;
+	color: white;
+	background-color: #ff5533;
+	font-size: 20px;
+	margin-top: 10px;
+}
+.knopka:hover {
+	transform: scale(1.03);
+}
+#what1 {
+	margin-top: 100px;
+	height: 550px;
+	width: 100%;
+}
+#what {
+	height: 700px;
+	width: 100%;
+	margin-top: 100px;
+}
+.wha {
+	padding: 0 60px;
+}
+#whatmore {
+	color: gray;
+}
+table {
+	width: 1260px;
+}
+#whatmore2 {
+	color:gray;
+	font-size: 20px;
+	font-weight: bold;
+	height: 100px;
+}
+#cena {
+	padding-top: 15px;
+	background-color: #ff5533;
+	color: white;
+	height: 200px;
+	padding-top: 60px;
+	padding-bottom: 30px;
+	margin-bottom:100px;
+}
+#whitetxt{
+	color: white;
+	font-size: 40px;
+	font-weight: bold;
+}
+#end {
+	height: 200px;
+}
+#last {
+	text-align: left;
+	color: gray;
+}
+footer {
+	margin-top:30px;
+	background-color:black;
+	color: white;
+	height: 70px;
+	padding-top: 30px;
+}
